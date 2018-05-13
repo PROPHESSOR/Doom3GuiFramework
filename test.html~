@@ -1,0 +1,43 @@
+<!Doctype HTML>
+<html>
+	<head>
+		<title>Тест DOOM3 GUI Query</title>
+		<meta charset="utf-8"/>
+        <link rel="stylesheet" type="text/css" href="css/styles.css"/>
+        <link rel="stylesheet" type="text/css" href="css/fonts.css"/>
+        <script src="js/script.js"></script>
+	</head>
+<settings>
+    <set id="setmusic">menu</set>
+</settings>
+	<body class="bgBlack">
+ <!--       <div class="bgInfo"><h1>Info</h1></div>
+        <div class="bgCave"><h1>Cave</h1></div>
+        <div class="bgBlue"><h1>Blue</h1></div>
+        <div class="bgRed"><h1>Red</h1></div>
+        <div class="bgGreen"><h1>Green</h1></div>
+        <div class="bgOcean"><h1>Ocean</h1></div>
+        <div class="bgGray"><h1>Gray</h1></div>
+        <div class="bgBlack2"><h1>Black2</h1></div>
+        <div class="bgHell"><h1>Hell</h1></div>
+        <div class="bgDOOM"><h1>Old Doom</h1></div>
+        <div class="bgMars"><h1>Mars</h1></div>
+        <div class="bgGrid"><h1>Grid</h1></div>
+        <div class="bgGridSmall"><h1>Small</h1></div>
+        <center>
+        <button class="btnGray">Gray</button>
+        <button class="btnOrange">Orange</button>
+        <button class="btnYellow">Yellow</button>
+        </center>
+        -->
+<!--        <div class="BgImage">
+        <h2 class="main">АДМИНИСТРАТИВНОЕ УПРАВЛЕНИЕ СЕТЬЮ</h2>
+        <h2 class="txtBlue down">АДМИНИСТРАТИВНАЯ СТАНЦИЯ</h2>
+        </div>-->
+    <audio src="sounds/music/d3theme.ogg" id="theme" loop></audio>
+    <audio src="sounds/music/guisounds_menu.ogg" id="menu" loop></audio>
+    <audio src="sounds/music/music_intro_cutscene.ogg" id="intro" loop></audio>
+    <audio src="sounds/music/turkey_music_loop.ogg" id="turkey" loop></audio>
+<script src="js/gui.js"></script>
+	</body>
+</html>

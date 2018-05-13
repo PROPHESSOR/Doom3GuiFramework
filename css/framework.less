@@ -1,0 +1,127 @@
+.mono {
+    font-family: monospace;
+}
+
+.sans {
+    font-family: sans-serif;
+}
+
+#page {
+    #header {
+        border: 15px double gray;
+        border-left: 0;
+        border-right: 0;
+        //    .mono;
+        //    .sans;
+        img {
+            float: left;
+        }
+        h1 {
+            text-transform: uppercase;
+            font-size: 250%;
+            margin-bottom: 0;
+            color: white;
+        }
+        h2 {
+            margin-top: 0;
+            text-transform: uppercase;
+            font-size: 150%;
+            color: gray;
+        }
+    }
+    #body {
+        border: 2px solid #aaa;
+        border-radius: 5px;
+        //    BLOCKS
+        .block21 {
+            .left {
+                float: left;
+                width: 16.66666667%;
+                background: red;
+            }
+            .right {
+                float: left;
+                width: 83.33333333%;
+                background: blue;
+            }
+        }
+        /*    BUTTONS    */
+        .btn {
+            display: block;
+            text-align: left;
+            width: 100%;
+            border-radius: 0;
+            text-transform: uppercase;
+            font-weight: bold;
+            font-size: 125%;
+        }
+        .btn-danger {
+            color: red;
+            background: #400;
+            border: 2px double darkred;
+        }
+        /*    COMPONENTS    */
+        .load {
+            //        border: 5px solid white;
+            h1 {
+                text-transform: uppercase;
+                font-weight: bold;
+                color: #cc8800;
+            }
+            progress {
+                display: block;
+                color: darkred;
+                background: black;
+                border: 5px solid black;
+                border-radius: 25px;
+                box-sizing: border-box;
+                width: 100%;
+                height: 25px;
+                line-height: 21px;
+                font-size: 15px;
+                font-family: sans-serif;
+                text-align: center;
+            }
+        }
+    }
+}
+
+#video{
+    #header {
+        border-left: 0;
+        border-right: 0;
+        background-color: darkcyan;
+        h1 {
+            text-transform: uppercase;
+            font-size: 250%;
+            margin: 0;
+            color: white;
+            font-weight: bold;
+        }
+    }
+    
+    #body{
+        margin: 25px;
+        video{
+            border: 2px solid #ccc;
+            width:100%;
+            height: 100%;
+        }
+        h1{
+            .sans;
+        }
+    }
+    
+    #footer {
+        border-left: 0;
+        border-right: 0;
+        background-color: darkcyan;
+        h1 {
+            text-transform: uppercase;
+            font-size: 250%;
+            margin: 0;
+            color: white;
+            font-weight: bold;
+        }
+    }
+}

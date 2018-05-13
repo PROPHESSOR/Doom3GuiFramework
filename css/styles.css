@@ -1,0 +1,314 @@
+body{
+    text-align: center;
+    font-family: "Tahoma";
+    display: block;
+    color: White;
+    cursor: url(../img/ui/arrow.gif);
+/*    border: 5px solid White;*/
+}
+settings{
+    display: none;
+}
+#loading{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-image: url(../img/splash/pdtempa.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+/*===========Классы==============*/
+.main{
+    color: #737373;
+    font-family: "Tahoma";
+}
+.hide{
+    display: none;
+}
+.list{
+    display: block;
+}
+.down{
+    position: relative; 
+    right: 200px; 
+    top: 500px
+}
+/*===========Фоны==============*/ 
+.bgInfo{
+    background-image: url(../img/backgrounds/info1.png), url(../img/cpuserver/bglow.png), url(../img/common/outershadow.png), url(../img/common/outerglow.png), url(../img/test/mask.png);
+    background-size: 100%;
+    background-attachment: fixed;
+}
+.bgCave{
+    background-image: url(../img/backgrounds/cave.png);
+    background-size: 100%;
+    background-attachment: fixed;
+}
+.bgDOOM{
+    background-image: url(../img/backgrounds/sttp.png);
+    background-size: 100%;
+    background-attachment: fixed;
+}
+.bgGrid{
+    background-image: url(../img/backgrounds/grid.png);
+    background-size: 100%;
+    background-attachment: fixed;
+}
+.bgGridSmall{
+    background-image: url(../img/backgrounds/gridRepeat.png);
+    background-attachment: fixed;
+}
+.bgMars{
+    background-image: url(../img/backgrounds/mars.png);
+    background-size: 100%;
+    background-attachment: fixed;
+}
+.bgBlue{
+    background-image: url(../img/backgrounds/bgBlue.png);
+    background-size: 100%;
+    background-attachment: fixed;
+}
+.bgBlack{
+    background-image: url(../img/backgrounds/black.png);
+    background-size: 100%;
+    background-attachment: fixed;
+}
+.bgBlack2{
+    background-image: url(../img/backgrounds/bgBlack.png);
+    background-size: 100%;
+    background-attachment: fixed;
+}
+.bgGreen{
+    background-image: url(../img/foregrounds/text/warning.png);
+/*    background-size: 100%;  */
+    background-attachment: fixed;
+}
+.bgOcean{
+    background-image: url(../img/backgrounds/ocean.png);
+    background-size: 100%;
+    background-attachment: fixed;
+}
+.bgRed{
+    background-image: url(../img/foregrounds/text/warning.png);
+    background-size: 100%;
+    background-attachment: fixed;
+}
+.bgGray{
+    background-image: url(../img/backgrounds/Gray.png);
+    background-size: 100%;
+    background-attachment: fixed;
+}
+.bgHell{
+    background-image: url(../img/backgrounds/blood.png), url(../img/backgrounds/blood2.png);
+    background-size: 100%;
+    background-attachment: fixed;
+}
+.bgPentogram{
+    background-image: url(../img/backgrounds/pentagram+2.png);
+    background-size: 100%;
+    background-attachment: fixed;
+}
+/*===========Шрифты==============*/
+.txtDefault{
+    font-family: 'Tahoma';
+    color: White;
+}
+.txtOrange{
+    font-family: 'Tahoma';
+    color: Orange;
+}
+.txtRed{
+    font-family: 'Tahoma';
+    color: Red;
+}
+.txtBlue{
+    font-family: 'Tahoma';
+    color: rgb(51, 68, 86);
+}
+.txtGreen{
+    font-family: 'Tahoma';
+    color: #00dd00;
+}
+.small{
+    font-size: 50%;
+}
+.medium{
+    font-size: 75%;
+}
+.large{
+    font-size: 150%;
+}
+.sub{
+    font-size: 125%;
+}
+/*===========Кнопки==============*/
+.btnBlue{
+    
+}
+.btnRed{
+    
+}
+.btnGreen{
+    
+}
+.btnGray{
+    display: block;
+    background-image: url(../img/foregrounds/buttons/btnGray.png);
+/*    content: url(../img/all/btn2.png);*/
+    background-size: 100%;
+    width: 128px;
+    height: 32px;
+    background-position: center;
+    border: 0px;
+    border-radius: 1px;
+    cursor: url(../img/ui/hand.gif);
+}
+.btnGray:hover{
+    filter: contrast(10); 
+    -webkit-filter: contrast(10); 
+}
+.btnOrange{
+    display: block;
+    background-image: url(../img/foregrounds/buttons/btnOrange.png);
+    background-size: 100%;
+    width: 128px;
+    height: 32px;
+/*    padding: 25px 20px 25px 20px;*/
+    background-position: center;
+    border: 0px;
+    border-radius: 5px;
+/*    font-size: 250%;*/
+    cursor: url(../img/ui/hand.gif);
+}
+.btnOrange:hover{
+/*    filter: invert(1); */
+    filter: grayscale(1);
+    -webkit-filter: grayscale(1);
+}
+.btnOrnge:active{
+    
+}
+.btnYellow{
+    display: block;
+    background-image: url(../img/foregrounds/buttons/btnYellow.png);
+    background-size: 100%;
+    width: 64px;
+    height: 64px;
+    background-position: center;
+    border: 0px;
+    border-radius: 1px;
+    cursor: url(../img/ui/hand.gif);
+}
+.btnYellow{
+    
+}
+.btnYellow{
+    
+}
+.btnBlack{
+    display: block;
+    background-image: url(../img/smdoor/button.png);
+    width: 64px;
+    height:64px;
+    background-position: center;
+    border: 0px;
+    border-radius: 1px;
+    color: wheat;
+}
+.btnBlack:hover{
+    background-image: url(../img/smdoor/buttono.png);
+    cursor: url(../img/ui/hand.gif);
+}
+.btn{
+    background: url(../img/all/button2.png), darkred;
+    background-repeat: no-repeat;
+/*    background-attachment: fixed;*/
+    background-size: 100%;
+    width:64px;
+    height:32px;
+    border:0;
+    padding:1px;
+}
+.btn:hover{
+    filter: invert(1);
+    -webkit-filter: invert(1);
+}
+/*===========Инпуты==============*/
+.iptBlue{
+    
+}
+.iptGreen{
+    
+}
+.iptRed{
+    
+}
+/*===========Цифровой ввод==============*/
+.numRed{
+    
+}
+.numRedH{
+    
+}
+.numGreen{
+    
+}
+/*===========Вставки==============*/
+logo{
+    display: block;
+    width: 256px;
+    height: 128px;
+    background-image: url(../img/foregrounds/text/doom3.png);
+}
+warning{
+    display: block;
+    width: 64px;
+    height: 64px;
+    background-image: url(../img/foregrounds/text/warning.png);
+}
+/*===========Положение==============*/
+.posMain{
+    text-align: center;
+}
+.posSecondLeft{
+    text-align: left;
+    position: relative; 
+    left: 25px; 
+}
+.posSecondCenter{
+    text-align: center;
+}
+.posSecondRight{
+    text-align: right;
+    position: relative; 
+    right: 25px; 
+}
+.posDownLeft{
+    position: fixed; 
+    left: 5%; 
+    bottom: 5%;
+}
+.posDownCenter{
+    position: fixed;
+    left: 38%;
+    bottom: 5%;
+    text-align: center;
+}
+.posDownRight{
+    position: fixed; 
+    right: 5%; 
+    bottom: 5%;
+}
+/*===========Окна==============*/
+.infoWindow{
+    text-align: center;
+    align-content: center;
+    align-self: center;
+    align-items: center;
+    display: block;
+    background-image: url(../img/backgrounds/info1.png), url(../img/cpuserver/bglow.png), url(../img/common/outershadow.png), url(../img/common/outerglow.png), url(../img/test/mask.png);
+    background-size: 100%;
+    width: 256px;
+    height: 256px;
+}

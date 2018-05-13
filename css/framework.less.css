@@ -1,0 +1,12 @@
+#header {
+  border: 15px double white;
+  border-left: 0;
+  border-right: 0;
+}
+#header img {
+  float: left;
+}
+#header h1 {
+  text-transform: uppercase;
+  font-size: 250%;
+}

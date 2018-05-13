@@ -1,0 +1,188 @@
+<!Doctype HTML>
+<html>
+
+<head>
+    <title>Тест DOOM3 GUI Query</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
+    <link rel="stylesheet" type="text/css" href="css/framework.css" />
+    <link rel="stylesheet" type="text/css" href="css/fonts.css" />
+    <script src="js/dom2.js"></script>
+</head>
+<settings>
+    Ваш браузер не поддерживает CSS? Что??!!
+    <set id="setmusic">menu</set>
+    <set id="settitle">DooM 3 GUI Framework Demo</set>
+</settings>
+
+<body class="bgMars">
+    <div id="loading"></div>
+
+
+    <section id="video">
+        <section id="header">
+            <div>
+                <h1>Станция видеосвязи</h1>
+            </div>
+        </section>
+
+        <section id="body">
+            <video src="Sone.mp4" ></video>
+            <h1>Связь установлена</h1>
+        </section>
+        
+        <section id="footer">
+            <h1>Связь</h1>
+        </section>
+    </section>
+
+    <!--
+    <section id="page">
+        <section id="header">
+            <div>
+                <img src="#" alt="Логотип">
+                <h1>Терминал орбитальной связи</h1>
+                <h2>Резервная станция спутниковой связи</h2>
+            </div>
+        </section>
+
+        <section id="body">
+            <div class="block21">
+                <div class="left"><img src="#" alt="Картинка"></div>
+                <div class="right">
+                    <h1>Работаю...</h1>
+                    <h1 class="orange">Сканирую хосты</h1>
+                </div>
+            </div>
+        </section>
+
+        <section id="footer">
+
+        </section>
+    </section>
+-->
+
+    <!--    <section id="page">
+        <section id="header">
+            <div>
+                <img src="#" alt="Логотип">
+                <h1>Административное управление сетью</h1>
+                <h2>АДМИНИСТРАТИВНАЯ СТАНЦИЯ</h2>
+            </div>
+        </section>
+
+        <section id="body">
+            <div class="list">
+                <button onclick="background('bgInfo')">bgInfo</button>
+                <button onclick="background('bgCave')">bgCave</button>
+                <button onclick="background('bgBlue')">bgBlue</button>
+                <button onclick="background('bgRed')">bgRed</button>
+                <button onclick="background('bgGreen')">bgGreen</button>
+                <button onclick="background('bgOcean')">bgOcean</button>
+                <button onclick="background('bgGray')">bgGray</button>
+                <button onclick="background('bgBlack2')">bgBlack2</button>
+                <button onclick="background('bgHell')">bgHell</button>
+                <button onclick="background('bgDOOM')">bgDOOM</button>
+                <button onclick="background('bgMars')">bgMars</button>
+                <button onclick="background('bgGrid')">bgGrid</button>
+                <button onclick="background('bgGridSmall')">bgGridSmall</button>
+                <button onclick="background('bgBlack')">bgBlack</button>
+
+                <button onclick="collapsible(1)">Фоны</button>
+                <button onclick="collapsible(2)">Кнопки</button>
+                <button onclick="collapsible(3)">Текст</button>
+                <br/><button onclick="btnIntro()">INTRO</button>
+                <button onclick="btnEbd()">END</button>
+                <button onclick="btnCyber()">CyberDeath</button>
+
+                <div id="collapsible1" class="hide">
+                    <div class="bgInfo">
+                        <h1>Info</h1>
+                    </div>
+                    <div class="bgCave">
+                        <h1>Cave</h1>
+                    </div>
+                    <div class="bgBlue">
+                        <h1>Blue</h1>
+                    </div>
+                    <div class="bgRed">
+                        <h1>Red</h1>
+                    </div>
+                    <div class="bgGreen">
+                        <h1>Green</h1>
+                    </div>
+                    <div class="bgOcean">
+                        <h1>Ocean</h1>
+                    </div>
+                    <div class="bgGray">
+                        <h1>Gray</h1>
+                    </div>
+                    <div class="bgBlack2">
+                        <h1>Black2</h1>
+                    </div>
+                    <div class="bgHell">
+                        <h1>Hell</h1>
+                    </div>
+                    <div class="bgDOOM">
+                        <h1>Old Doom</h1>
+                    </div>
+                    <div class="bgMars">
+                        <h1>Mars</h1>
+                    </div>
+                    <div class="bgGrid">
+                        <h1>Grid</h1>
+                    </div>
+                    <div class="bgGridSmall">
+                        <h1>Small</h1>
+                    </div>
+                </div>
+                
+                <div class="load">
+                   <h1>Загрузка</h1>
+                    <progress value="50" max="100"></progress>
+                </div>
+                
+                <div class="none" id="collapsible2">
+                    <center>
+                        <button class="btnGray">Gray</button>
+                        <button class="btnOrange">Orange</button>
+                        <button class="btnYellow">Yellow</button>
+                        <button class="btnBlack">Black</button>
+                        <button class="btn btn-danger">Button</button>
+                    </center>
+                </div>
+                <div id="collapsible3" class="hide">
+                    <center>
+                        <logo></logo>
+                        <warning></warning>
+                    </center>
+                </div>
+            </div>
+        </section>
+
+        <section id="footer">
+
+        </section>
+    </section> -->
+
+
+    <!--        <div class="BgImage">
+        <h2 class="main">АДМИНИСТРАТИВНОЕ УПРАВЛЕНИЕ СЕТЬЮ</h2>
+        <h2 class="txtBlue down">АДМИНИСТРАТИВНАЯ СТАНЦИЯ</h2>
+        </div>-->
+
+    <audio src="sounds/music/guisounds_menu.ogg" id="musicplayer" loop></audio>
+
+    <audio src="sounds/ui/connect3.ogg" id="UIplayer"></audio>
+    <audio src="sounds/ui/connect3.ogg" id="compplayer"></audio>
+    <audio src="sounds/ui/connect3.ogg" id="VOplayer"></audio>
+    <script src="js/gui.js"></script>
+    <script src="js/script.js"></script>
+    <script>
+        start()
+
+    </script>
+</body>
+
+</html>

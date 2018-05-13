@@ -1,0 +1,27 @@
+//Определяем переменные
+var sound, music;
+//Задаём фоновую музыку
+sound = document.getElementById('setmusic');
+music = sound.innerHTML;
+
+
+//Сюда не лезем)
+    //Sounds
+switch(music){
+	case 'menu':
+  		document.getElementById('menu').play();
+		console.info('Играет музыка theme =)');
+	break;
+	case 'theme':
+		document.getElementById('theme').play();
+		console.info('Играет музыка theme =)');
+	break;
+	case 'intro':
+		document.getElementById('intro').play();
+		console.info('Играет музыка intro =)');
+	break;
+	case 'turkey':
+		document.getElementById('turkey').play();
+		console.info('Играет музыка turkey =)');
+	break;
+}

@@ -1,0 +1,166 @@
+body{
+    text-align: center;
+    font-family: "Tahoma";
+    display: block;
+    color: White;
+    cursor: url(../img/ui/arrow.gif);
+/*    border: 5px solid White;*/
+}
+settings{
+    display: none;
+}
+/*===========Классы==============*/
+.main{
+    color: #737373;
+    font-family: "Tahoma";
+}
+/*===========Фоны==============*/
+.bgInfo{
+    background-image: url(../img/backgrounds/info1.png), url(../img/cpuserver/bglow.png), url(../img/common/outershadow.png), url(../img/common/outerglow.png), url(../img/test/mask.png);
+    background-size: 100%;
+}
+.bgCave{
+    background-image: url(../img/backgrounds/cave.png);
+    background-size: 100%;
+}
+.bgDOOM{
+    background-image: url(../img/backgrounds/sttp.png);
+    background-size: 100%;
+}
+.bgGrid{
+    background-image: url(../img/backgrounds/grid.png);
+    background-size: 100%;
+}
+.bgGridSmall{
+    background-image: url(../img/backgrounds/gridRepeat.png);
+}
+.bgMars{
+    background-image: url(../img/backgrounds/mars.png);
+    background-size: 100%;
+}
+.bgBlue{
+    background-image: url(../img/backgrounds/bgBlue.png);
+    background-size: 100%;
+}
+.bgBlack{
+    background-image: url(../img/backgrounds/black.png);
+    background-size: 100%;
+}
+.bgBlack2{
+    background-image: url(../img/backgrounds/bgBlack.png);
+    background-size: 100%;
+}
+.bgGreen{
+    
+}
+.bgOcean{
+    background-image: url(../img/backgrounds/ocean.png);
+    background-size: 100%;
+}
+.bgRed{
+    
+}
+.bgGray{
+    background-image: url(../img/backgrounds/Gray.png);
+    background-size: 100%;
+}
+.bgHell{
+    background-image: url(../img/backgrounds/blood.png), url(../img/backgrounds/blood2.png);
+    background-size: 100%;
+}
+.bgPentogram{
+    background-image: url(../img/backgrounds/pentagram+2.png);
+    background-size: 100%;
+}
+/*===========Шрифты==============*/
+.txtDefault{
+    font-family: 'Tahoma';
+    color: White;
+}
+.txtOrange{
+    font-family: 'Tahoma';
+    color: Orange;
+}
+.txtRed{
+    font-family: 'Tahoma';
+    color: Red;
+}
+.txtBlue{
+    font-family: 'Tahoma';
+    color: rgb(51, 68, 86);
+}
+.txtGreen{
+    font-family: 'Tahoma';
+    color: #00dd00;
+}
+/*===========Кнопки==============*/
+.btnBlue{
+    
+}
+.btnRed{
+    
+}
+.btnGreen{
+    
+}
+.btnGray{
+    display: block;
+    background-image: url(../img/foregrounds/buttons/btnGray.png);
+    background-size: 100%;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    border: 0px;
+    border-radius: 1px;
+    cursor: url(../img/ui/hand.gif);
+}
+.btnOrange{
+    display: block;
+    background-image: url(../img/foregrounds/buttons/btnOrange.png);
+    background-size: 100%;
+    width: 50%;
+    height: *;
+    padding: 25px 20px 25px 20px;
+    background-position: center;
+    border: 0px;
+    border-radius: 5px;
+    font-size: 250%;
+    cursor: url(../img/ui/hand.gif);
+}
+.btnYellow{
+    display: block;
+    background-image: url(../img/foregrounds/buttons/btnYellow.png);
+    background-size: 100%;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    border: 0px;
+    border-radius: 1px;
+    cursor: url(../img/ui/hand.gif);
+}
+/*===========Инпуты==============*/
+.iptBlue{
+    
+}
+.iptGreen{
+    
+}
+.iptRed{
+    
+}
+/*===========Цифровой ввод==============*/
+.numRed{
+    
+}
+.numRedH{
+    
+}
+.numGreen{
+    
+}
+/*===========Классы==============*/
+.down{
+    position: relative; 
+    right: 200px; 
+    top: 500px
+}
